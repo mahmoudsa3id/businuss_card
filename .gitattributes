@@ -1,4 +1,4 @@
-# تجاهل كل فولدرات الأنظمة
+# تجاهل كل منصات النظام (عشان ما تتحسبش في اللغات)
 android/** linguist-vendored
 ios/** linguist-vendored
 windows/** linguist-vendored
@@ -6,7 +6,8 @@ macos/** linguist-vendored
 linux/** linguist-vendored
 web/** linguist-vendored
 
-# ركّز على Dart
+# ركّز على Dart بس
 *.dart linguist-detectable=true
+
 
 
