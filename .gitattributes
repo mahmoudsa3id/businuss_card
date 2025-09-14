@@ -1,6 +1,11 @@
-*.dart linguist-detectable=true
-*.java linguist-detectable=false
-*.kt linguist-detectable=false
+# قول لـ GitHub Linguist إن الملفات دي تتجاهل
 *.cpp linguist-detectable=false
 *.c linguist-detectable=false
 *.h linguist-detectable=false
+*.java linguist-detectable=false
+*.kt linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
+
+# خلّي Dart هي الأساسية
+*.dart linguist-detectable=true
