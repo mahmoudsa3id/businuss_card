@@ -1,12 +1,11 @@
-# تجاهل كل لغات السيستم
-*.cpp linguist-detectable=false
-*.c linguist-detectable=false
-*.h linguist-detectable=false
-*.java linguist-detectable=false
-*.kt linguist-detectable=false
-*.cmake linguist-detectable=false
-CMakeLists.txt linguist-detectable=false
-*.xml linguist-detectable=false
+# تجاهل لغات الأنظمة (مش الكود الأساسي)
+android/* linguist-vendored
+ios/* linguist-vendored
+windows/* linguist-vendored
+macos/* linguist-vendored
+linux/* linguist-vendored
+web/* linguist-vendored
 
-# فعّل حساب لغة Dart
+# ركّز على Dart
 *.dart linguist-detectable=true
+
