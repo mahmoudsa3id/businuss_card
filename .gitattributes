@@ -1,4 +1,4 @@
-# تجاهل لغات الأنظمة (مش الكود الأساسي)
+# تجاهل فولدرات الأنظمة (Android, iOS, Windows, macOS, Linux, Web)
 android/* linguist-vendored
 ios/* linguist-vendored
 windows/* linguist-vendored
@@ -8,4 +8,16 @@ web/* linguist-vendored
 
 # ركّز على Dart
 *.dart linguist-detectable=true
+
+# تجاهل لغات تانية مش أساسية
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.h linguist-detectable=false
+*.java linguist-detectable=false
+*.kt linguist-detectable=false
+*.swift linguist-detectable=false
+*.cmake linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+*.xml linguist-detectable=false
+*.html linguist-detectable=false
 
